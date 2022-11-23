@@ -1,5 +1,5 @@
 import myPortfolio from './myPortfolioPreview/myPortfolio.jpg;
-[myPortfolio]
+[Personal Portfolio...](myPortfolio)
 
 This is my personal portfolio. This portfolio is a compilation of my work samples and documents gathered during my school years and my coding journey at Masai School.
 I have presented it in a structured manner. It contains my goals, progress, my achievements, and competencies in an organized, accessible, and purposeful format.
