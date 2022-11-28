@@ -16,4 +16,4 @@ This is my portfolio where you can know about me and my work, and you can also k
 
 Deployment : -
 - [Vercel](https://myportfolio-seven-delta.vercel.app/)
-- [Netlify](https://github.com/)
+- [Netlify]([https://github.com/](https://myportfolio-seven-delta.vercel.app/))
