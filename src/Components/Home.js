@@ -14,7 +14,7 @@ const Home = () => {
         <Image src={logo} alt="logo" height={"-moz-max-content"} />
         <Box style={{ position: "absolute", top: "40%", left: "10%", color: "white", zIndex: "3", textAlign: "left" }}>
           <Text fontSize={"23px"}>Hello, I'm a</Text>
-          <Text fontSize={"70px"}>Java Developer</Text>
+          <Text fontSize={"70px"}>MERN</Text>
           <Button border={"1px"} padding={"30px"} color={"black"} bg="skyblue" fontSize={"21px"}>Resume</Button>
         </Box>
       </Box>
