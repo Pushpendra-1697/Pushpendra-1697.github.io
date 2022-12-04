@@ -3,16 +3,9 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import { BrowserRouter } from 'react-router-dom';
-// import { ChakraProvider } from '@chakra-ui/react';
-
 import './Stylesheets/index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-);
+root.render(<App />);
 
 reportWebVitals();
