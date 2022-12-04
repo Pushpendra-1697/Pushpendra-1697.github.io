@@ -1,9 +1,10 @@
 [My Portfolio....](https://myportfolio-seven-delta.vercel.app/)
 
+![portfolio](https://user-images.githubusercontent.com/104748364/205477467-8a7f1e46-627b-4ea2-976d-7dd5cfd407f2.png)
 
 
 
-![Screenshot (78)](https://user-images.githubusercontent.com/104748364/205240132-2cb83c3f-c593-4edd-9545-1dfb77bcce0f.png)
+
 
 
 
