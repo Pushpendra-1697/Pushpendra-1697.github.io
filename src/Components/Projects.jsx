@@ -10,20 +10,20 @@ let projects = [
     img: 'Hotel_Booking.png',
     title: 'Hotels Booking System',
     discription:
-      'This is a Flights & Hotel Booking System after authentication.',
+      'This is a Flights & Hotel Booking System  after authentication.',
     tags: ['react', 'react-router', 'jsx', 'css'],
     repolink: 'https://github.com/Pushpendra-1697/naughty-discussion-3257',
     livelink: 'https://expedia-travel.vercel.app',
   },
   {
     id: 1,
-    img: 'Hotel_Booking.png',
-    title: 'Hotels Booking System',
+    img: 'rentomojo.png',
+    title: 'Sales-Oriented Cloneing System',
     discription:
-      'This is a Flights & Hotel Booking System after authentication.',
-    tags: ['react', 'react-router', 'jsx', 'css'],
-    repolink: 'https://github.com/Pushpendra-1697/naughty-discussion-3257',
-    livelink: 'https://expedia-travel.vercel.app',
+      'This is a Fitnesss & Electronics Booking System after authentication.',
+    tags: ["html", 'javascript', 'css'],
+    repolink: 'https://github.com/Pushpendra-1697/panicky-smash-9541',
+    livelink: 'https://glittering-liger-3137f9.netlify.app/',
   },
   {
     id: 2,
@@ -45,16 +45,6 @@ let projects = [
     repolink: 'https://github.com/Pushpendra-1697/naughty-discussion-3257',
     livelink: 'https://expedia-travel.vercel.app',
   },
-  {
-    id: 4,
-    img: 'Hotel_Booking.png',
-    title: 'Hotels Booking System',
-    discription:
-      'This is a Flights & Hotel Booking System  after authentication.',
-    tags: ['react', 'react-router', 'jsx', 'css'],
-    repolink: 'https://github.com/Pushpendra-1697/naughty-discussion-3257',
-    livelink: 'https://expedia-travel.vercel.app',
-  }
 ];
 
 function Projects() {
@@ -73,9 +63,10 @@ function Projects() {
     for (let i = count; i < count + num; i++) {
       arr.push(projects[i]);
     }
-    console.log(arr);
+    // console.log(arr);
     return arr;
   });
+  // console.log(frontProjects);
 
   function handleLeft() {
     setCount((prevState) => {
@@ -86,11 +77,12 @@ function Projects() {
       }
     });
 
-    setFrontProjects((prevState) => {
+    setFrontProjects(() => {
       let arr = [];
       for (let i = count; i < count + num; i++) {
         arr.push(projects[i]);
       }
+      // console.log(arr);
       return arr;
     });
   }
@@ -104,12 +96,12 @@ function Projects() {
       }
     });
 
-    setFrontProjects((prevState) => {
+    setFrontProjects(() => {
       let arr = [];
-
       for (let i = count; i < count + num; i++) {
         arr.push(projects[i]);
       }
+      // console.log(arr);
       return arr;
     });
   }
@@ -136,20 +128,19 @@ function Projects() {
                   <h3 className='project-name'> {item.title}</h3>
                   <p className='discription'>{item.discription} </p>
                   <div className='tag-box'>
-                    {item.tags.map((tag, i) => {
-                      return <p key={i}> {tag.toUpperCase()}</p>;
+                    {item.tags.map((tag) => {
+                      return <p key={tag}> {tag.toUpperCase()}</p>;
                     })}
                   </div>
                   <div className='repolink-box'>
                     <abbr title='Go To Repository'>
-                      {' '}
-                      <a href={`${item.repolink}`} target='blank'>
+                      <a href={item.repolink}target='blank'>
                         <VscGithub />
                       </a>
                     </abbr>
                     <abbr title='Go To Live Demo'>
-                      <a href={`${item.livelink}`} target='blank'>
-                        {item.tags.includes('css') ? <FaEye /> : ''}{' '}
+                      <a href={item.livelink} target='blank'>
+                        {item.tags.includes('css') ? <FaEye /> : ''}
                       </a>
                     </abbr>
                   </div>
@@ -172,3 +163,18 @@ function Projects() {
 }
 
 export default Projects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

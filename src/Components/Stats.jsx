@@ -11,16 +11,19 @@ export default function Stats() {
           <img
             className='img2 mn-sm-bet'
             src='https://github-readme-stats.vercel.app/api?username=umakant-2113&show_icons=true&theme=dracula&title_color=c12020&bg_color=303030&icon_color=c12020'
+            alt=''
           />
           <img
             className='img1'
             src='https://github-readme-stats.vercel.app/api/top-langs/?username=umakant-2113&theme=dracula&title_color=c12020&bg_color=303030&icon_color=c12020&hide=html'
+            alt=''
           />
         </div>
         <div className='git-icon'>
           <a
             className='anchor-tags'
-            target='blank'
+            target='_blank'
+            rel='noreferrer'
             href='https://github.com/Pushpendra-1697'
           >
             <abbr title='Open Github Profile'>
