@@ -1,7 +1,5 @@
 import React from 'react';
 import Githubcalender from 'react-github-calendar';
-
-
 import { VscGithub } from 'react-icons/vsc';
 
 export default function Stats() {
@@ -34,7 +32,7 @@ export default function Stats() {
           </a>
         </div>
         <div margin="auto">
-          <Githubcalender className="c" username="Pushpendra-1697" blockSize={15} blockmargin={3} color={"green"} fontSize={20} />
+          <Githubcalender className="c" username="Pushpendra-1697" blockSize={15} blockMargin={1.5} color={"green"} fontSize={20} />
         </div>
       </section>
     </>
