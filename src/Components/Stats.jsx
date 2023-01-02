@@ -31,8 +31,9 @@ export default function Stats() {
             </abbr>
           </a>
         </div>
+
         <div margin="auto">
-          <Githubcalender className="c" username="Pushpendra-1697" blockSize={15} blockMargin={1.5} color={"green"} fontSize={20} />
+          <Githubcalender className="c" username="Pushpendra-1697" blockSize={10}  color={"green"}/>
         </div>
       </section>
     </>

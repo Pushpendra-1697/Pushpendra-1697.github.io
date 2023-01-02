@@ -127,9 +127,9 @@ function Projects() {
                   </figure>
                   <h3 className='project-name'> {item.title}</h3>
                   <p className='discription'>{item.discription} </p>
-                  <div className='tag-box'>
+                  <div className='tag-box' style={{display: "flex", justifyContent: "space-evenly"}}>
                     {item.tags.map((tag) => {
-                      return <p key={tag}> {tag.toUpperCase()}</p>;
+                      return <button style={{borderRadius:"10px", backgroundColor: "rgba(193, 32, 32, 0.5)", color: "white", padding: "4px"}} key={tag}> {tag.toUpperCase()}</button>;
                     })}
                   </div>
                   <div className='repolink-box'>
