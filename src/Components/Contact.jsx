@@ -4,12 +4,12 @@ export default function Contact() {
   return (
     <>
       <section id='contact'>
-        <h4 style={{ marginBottom: '4rem' }}> <u>Get Tn Touch</u> </h4>
+        <h4 style={{ marginBottom: '4rem' }}> <u>Get In Touch</u> </h4>
         <div className='contact-box   sm-center   mn-flex-start '>
-          <div className='flex-20 sm-flex-50  '>
+          <div className='flex-20 sm-flex-50' style={{marginTop: "5px"}}>
             <h3 className='contact-h3 '>Let's Connect Here ! </h3>
 
-            <div className='contact-icon-div'>
+            <div className='contact-icon-div' style={{marginTop: "15px"}}>
               <a
                 href='https://www.linkedin.com/in/pushpendra-singh-48912a23a/'
                 target='blank'
@@ -37,7 +37,7 @@ export default function Contact() {
 
           <div className='flex-50 sm-flex-50 sm-between '>
             <h3 className='contact-h3 center'>
-              Make Something Amazing Together !{' '}
+              Make Something Amazing Together
             </h3>
 
             <div className='contact-mail sm-bet'>
