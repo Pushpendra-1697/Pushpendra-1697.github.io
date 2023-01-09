@@ -27,24 +27,24 @@ let projects = [
   },
   {
     id: 2,
-    img: 'Hotel_Booking.png',
-    title: 'Hotels Booking System',
+    img: 'Myntra.png',
+    title: 'E-commerce store for fashion and lifestyle system',
     discription:
-      'This is a Flights & Hotel Booking System  after authentication.',
-    tags: ['react', 'react-router', 'jsx', 'css'],
-    repolink: 'https://github.com/Pushpendra-1697/naughty-discussion-3257',
-    livelink: 'https://expedia-travel.vercel.app',
+      'This is E-commerce store for fashion and lifestyle System  after authentication.',
+    tags: ['react', 'react-router', 'react-redux', 'css'],
+    repolink: 'https://github.com/harshau9/Myntra-Clone',
+    livelink: 'https://myntra-gilt.vercel.app/',
   },
   {
-    id: 3,
-    img: 'Hotel_Booking.png',
-    title: 'Hotels Booking System',
+    id: 2,
+    img: 'Myntra.png',
+    title: 'E-commerce store for fashion and lifestyle system',
     discription:
-      'This is a Flights & Hotel Booking System  after authentication.',
-    tags: ['react', 'react-router', 'jsx', 'css'],
-    repolink: 'https://github.com/Pushpendra-1697/naughty-discussion-3257',
-    livelink: 'https://expedia-travel.vercel.app',
-  },
+      'This is E-commerce store for fashion and lifestyle System  after authentication.',
+    tags: ['react', 'react-router', 'react-redux', 'css'],
+    repolink: 'https://github.com/harshau9/Myntra-Clone',
+    livelink: 'https://myntra-gilt.vercel.app/',
+  }
 ];
 
 function Projects() {
@@ -127,14 +127,14 @@ function Projects() {
                   </figure>
                   <h3 className='project-name'> {item.title}</h3>
                   <p className='discription'>{item.discription} </p>
-                  <div className='tag-box' style={{display: "flex", justifyContent: "space-evenly"}}>
+                  <div className='tag-box' style={{ display: "flex", justifyContent: "space-evenly" }}>
                     {item.tags.map((tag) => {
-                      return <button style={{borderRadius:"10px", backgroundColor: "rgba(193, 32, 32, 0.5)", color: "white", padding: "4px"}} key={tag}> {tag.toUpperCase()}</button>;
+                      return <button style={{ borderRadius: "10px", backgroundColor: "rgba(193, 32, 32, 0.5)", color: "white", padding: "4px" }} key={tag}> {tag.toUpperCase()}</button>;
                     })}
                   </div>
                   <div className='repolink-box'>
                     <abbr title='Go To Repository'>
-                      <a href={item.repolink}target='blank'>
+                      <a href={item.repolink} target='blank'>
                         <VscGithub />
                       </a>
                     </abbr>
