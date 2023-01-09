@@ -10,12 +10,12 @@ export default function Stats() {
         <div className='sm-stata-div stats-div'>
           <img
             className='img2 mn-sm-bet'
-            src='https://github-readme-stats.vercel.app/api?username=umakant-2113&show_icons=true&theme=dracula&title_color=c12020&bg_color=303030&icon_color=c12020'
+            src='https://github-readme-stats.vercel.app/api?username=Pushpendra-1697&show_icons=true&theme=dracula&title_color=c12020&bg_color=303030&icon_color=c12020'
             alt=''
           />
           <img
             className='img1'
-            src='https://github-readme-stats.vercel.app/api/top-langs/?username=umakant-2113&theme=dracula&title_color=c12020&bg_color=303030&icon_color=c12020&hide=html'
+            src='https://github-readme-stats.vercel.app/api/top-langs/?username=Pushpendra-1697&theme=dracula&title_color=c12020&bg_color=303030&icon_color=c12020&hide=html'
             alt=''
           />
         </div>
