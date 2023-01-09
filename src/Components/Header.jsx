@@ -1,14 +1,14 @@
 import React from 'react';
-import { useState } from 'react';
+// import { useState } from 'react';
 export default function Header() {
-  const [flag, setFlag] = useState(false);
+  // const [flag, setFlag] = useState(false);
 
-  const handleClick = () => {
-    setFlag(true);
-  };
-  const handleClick1 = () => {
-    setFlag(false);
-  };
+  // const handleClick = () => {
+  //   setFlag(true);
+  // };
+  // const handleClick1 = () => {
+  //   setFlag(false);
+  // };
 
   // console.log(flag);
 
@@ -24,36 +24,36 @@ export default function Header() {
             </li>
           </ul>
           <label htmlFor='toggle' className='bar'>
-            <i onClick={handleClick1} className='fas fa-bars'></i>
+            <i className='fas fa-bars'></i>
           </label>
           <input type='checkbox' id='toggle' />
-          {flag === false ? <nav className='nav'>
+          <nav className='nav'>
             <ul className='flex sm-column'>
-              <li onClick={handleClick} className='list'>
+              <li className='list'>
                 <a href='#home'>Home</a>
               </li>
 
-              <li onClick={handleClick} className='list'>
+              <li className='list'>
                 <a href='#about'>About</a>
               </li>
 
-              <li onClick={handleClick} className='list'>
+              <li className='list'>
                 <a href='#skills'>Skills</a>
               </li>
 
-              <li onClick={handleClick} className='list'>
+              <li className='list'>
                 <a href='#tool'>Tools</a>
               </li>
 
-              <li onClick={handleClick} className='list'>
+              <li className='list'>
                 <a href='#projects'>Projects</a>
               </li>
 
-              <li onClick={handleClick} className='list'>
+              <li className='list'>
                 <a href='#contact'>Contact</a>
               </li>
 
-              <li onClick={handleClick} className='active'>
+              <li className='active'>
                 <a href='./assets/docs/PUSHPENDRA_SINGH_Resume.pdf' download>
                   Resume
                   <span></span>
@@ -63,8 +63,7 @@ export default function Header() {
                 </a>
               </li>
             </ul>
-          </nav> : null}
-
+          </nav>
         </div>
       </header>
     </>
