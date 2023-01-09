@@ -41,7 +41,7 @@ export default function Contact() {
             </h3>
 
             <div className='contact-mail sm-bet'>
-              <div className='flex-65 view-box sm-flex-60  '>
+              <div className='flex-65 view-box sm-flex-60'>
                 <a
                   className='mail'
                   target='blank'
@@ -50,7 +50,7 @@ export default function Contact() {
                   Mail Me : pushpendra1697@gmail.com
                 </a>
               </div>
-              <div className='flex-40   view-box sm-flex-35'>
+              <div className='flex-40 view-box sm-flex-35'>
                 {' '}
                 <a className='tel' target='blank' href='tel:9721085620'>
                   Call Me : +919721085620

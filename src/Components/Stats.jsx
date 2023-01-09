@@ -33,7 +33,7 @@ export default function Stats() {
         </div>
 
         <div margin="auto">
-          <Githubcalender className="c" username="Pushpendra-1697" blockSize={10}  color={"green"}/>
+          <Githubcalender className="c" username="Pushpendra-1697" blockSize={10}  color={"red"}/>
         </div>
       </section>
     </>
