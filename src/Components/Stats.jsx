@@ -10,13 +10,13 @@ export default function Stats() {
         <div className='sm-stata-div stats-div'>
           <img
             className='img2 mn-sm-bet'
-            src='https://github-readme-stats.vercel.app/api?username=Pushpendra-1697&show_icons=true&theme=dracula&title_color=c12020&bg_color=303030&icon_color=c12020'
-            alt=''
+            src='https://github-readme-stats.vercel.app/api?username=Pushpendra-1697&show_icons=true&locale=en'
+            alt='Pushpendra-1697'
           />
           <img
-            className='img1'
-            src='https://github-readme-stats.vercel.app/api/top-langs/?username=Pushpendra-1697&theme=dracula&title_color=c12020&bg_color=303030&icon_color=c12020&hide=html'
-            alt=''
+            className='img1 mn-sm-bet'
+            src='https://github-readme-stats.vercel.app/api/top-langs?username=Pushpendra-1697&show_icons=true&locale=en&layout=compact'
+            alt='Pushpendra-1697'
           />
         </div>
         <div className='git-icon'>
@@ -33,7 +33,7 @@ export default function Stats() {
         </div>
 
         <div margin="auto">
-          <Githubcalender className="c" username="Pushpendra-1697" blockSize={10}  color={"red"}/>
+          <Githubcalender className="c" username="Pushpendra-1697" blockSize={10} color={"rgb(81,148,240)"} />
         </div>
       </section>
     </>
