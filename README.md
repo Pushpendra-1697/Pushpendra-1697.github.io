@@ -1,4 +1,4 @@
-[My Portfolio....](https://myportfolio-seven-delta.vercel.app/)
+[My Portfolio....](https://pushpendra-1697.github.io/)
 
 ![portfolio](https://user-images.githubusercontent.com/104748364/210327583-4fd2fd51-66a5-4641-9f0c-5a4b59c69b18.png)
 
@@ -8,4 +8,4 @@ This is my portfolio where you can know about me and my work, and you can also k
 
 Deployment : -
 - [Vercel](https://myportfolio-seven-delta.vercel.app/)
-- [CI/CD Deploy](https://myportfolio-seven-delta.vercel.app/)
+- [CI/CD github.io Deploy](https://pushpendra-1697.github.io/)
