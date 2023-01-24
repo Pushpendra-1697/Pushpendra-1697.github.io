@@ -36,14 +36,14 @@ let projects = [
     livelink: 'https://myntra-gilt.vercel.app/',
   },
   {
-    id: 2,
-    img: 'Myntra.png',
-    title: 'E-commerce store for fashion and lifestyle system',
+    id: 3,
+    img: 'BeautyCare.png',
+    title: 'E-commerce store for fashion, lifestyle and beauty products system',
     discription:
-      'This is E-commerce store for fashion and lifestyle System  after authentication.',
-    tags: ['react', 'react-router', 'react-redux', 'css'],
-    repolink: 'https://github.com/harshau9/Myntra-Clone',
-    livelink: 'https://myntra-gilt.vercel.app/',
+      'This is E-commerce store for fashion and lifestyle System  after authentication and authorization. It is a full Stack Project (Frontend & Backend).',
+    tags: ['react-redux', 'chakra-ui', 'expressjs', 'mongodb', 'nodejs', 'css'],
+    repolink: 'https://github.com/Pushpendra-1697/BeautyCare-clone',
+    livelink: 'https://frontend-eight-tawny-20.vercel.app/',
   }
 ];
 

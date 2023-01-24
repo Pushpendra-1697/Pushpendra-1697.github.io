@@ -1,16 +1,13 @@
-import React from 'react';
-// import { useState } from 'react';
+import React, { useState } from 'react';
+import { ImCross } from 'react-icons/im'
 export default function Header() {
-  // const [flag, setFlag] = useState(false);
+  const [flag, setFlag] = useState(true);
 
-  // const handleClick = () => {
-  //   setFlag(true);
-  // };
-  // const handleClick1 = () => {
-  //   setFlag(false);
-  // };
+  const handleClick = () => {
+    setFlag(!flag);
+  };
 
-  // console.log(flag);
+  console.log(flag);
 
   return (
     <>
@@ -24,7 +21,7 @@ export default function Header() {
             </li>
           </ul>
           <label htmlFor='toggle' className='bar'>
-            <i className='fas fa-bars'></i>
+            {flag ? <i onClick={handleClick} className='fas fa-bars'></i> : <ImCross onClick={handleClick} />}
           </label>
           <input type='checkbox' id='toggle' />
           <nav className='nav'>
