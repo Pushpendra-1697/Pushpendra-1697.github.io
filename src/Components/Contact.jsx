@@ -58,8 +58,10 @@ export default function Contact() {
               </div>
             </div>
           </div>
-        
-        
+  
+
+
+  
           <div className='flex-20 sm-flex-50 '>
             <h3 className='contact-h3'> Want To Know More !</h3>
             <div className='resume '>

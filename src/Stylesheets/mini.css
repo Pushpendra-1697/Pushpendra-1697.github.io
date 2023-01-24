@@ -18,13 +18,14 @@
 
   .mn-left {
     position: absolute;
-    top: 46rem;
+    top: 49rem;
   }
 
   .mn-right {
     position: absolute;
-    top: 46rem;
+    top: 49rem;
   }
+
   .mn-flex-50 {
     height: 180px;
     width: 180px;
@@ -40,10 +41,7 @@
   .mn-tools {
     font-size: 5rem;
   }
-  /* .mn-flex-start {
-    text-align: left;
-    border: 2px solid red;
-  } */
+
   .mn-tools-1 {
     min-width: 100px;
   }

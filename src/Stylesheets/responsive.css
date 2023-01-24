@@ -103,12 +103,12 @@
   }
   .sm-left {
     position: absolute;
-    top: 43rem;
+    top: 49rem;
     left: 40%;
   }
   .sm-right {
     position: absolute;
-    top: 43rem;
+    top: 49rem;
     right: 40%;
   }
 }

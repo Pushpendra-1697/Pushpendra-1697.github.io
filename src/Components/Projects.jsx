@@ -38,9 +38,9 @@ let projects = [
   {
     id: 3,
     img: 'BeautyCare.png',
-    title: 'E-commerce store for fashion, lifestyle and beauty products system',
+    title: 'E-commerce Beauty products system',
     discription:
-      'This is E-commerce store for fashion and lifestyle System  after authentication and authorization. It is a full Stack Project (Frontend & Backend).',
+      'This is E-commerce authentication and authorization full Stack Project (Frontend & Backend).',
     tags: ['react-redux', 'chakra-ui', 'expressjs', 'mongodb', 'nodejs', 'css'],
     repolink: 'https://github.com/Pushpendra-1697/BeautyCare-clone',
     livelink: 'https://frontend-eight-tawny-20.vercel.app/',
@@ -127,7 +127,7 @@ function Projects() {
                   </figure>
                   <h3 className='project-name'> {item.title}</h3>
                   <p className='discription'>{item.discription} </p>
-                  <div className='tag-box' style={{ display: "flex", justifyContent: "space-evenly" }}>
+                  <div className='tag-box' style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", marginTop:"25px" }}>
                     {item.tags.map((tag) => {
                       return <button style={{ borderRadius: "10px", backgroundColor: "rgba(193, 32, 32, 0.5)", color: "white", padding: "4px" }} key={tag}> {tag.toUpperCase()}</button>;
                     })}
