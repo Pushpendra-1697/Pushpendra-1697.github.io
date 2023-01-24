@@ -7,26 +7,16 @@ import { TbChevronsRight } from 'react-icons/tb';
 let projects = [
   {
     id: 0,
-    img: 'Hotel_Booking.png',
-    title: 'Hotels Booking System',
+    img: 'BeautyCare.png',
+    title: 'E-commerce Beauty products system',
     discription:
-      'This is a Flights & Hotel Booking System  after authentication.',
-    tags: ['react', 'react-router', 'jsx', 'css'],
-    repolink: 'https://github.com/Pushpendra-1697/naughty-discussion-3257',
-    livelink: 'https://expedia-travel.vercel.app',
+      'This is E-commerce authentication and authorization full Stack Project (Frontend & Backend).',
+    tags: ['react-redux', 'chakra-ui', 'expressjs', 'mongodb', 'nodejs', 'css'],
+    repolink: 'https://github.com/Pushpendra-1697/BeautyCare-clone',
+    livelink: 'https://frontend-eight-tawny-20.vercel.app/',
   },
   {
     id: 1,
-    img: 'rentomojo.png',
-    title: 'Sales-Oriented Cloneing System',
-    discription:
-      'This is a Fitnesss & Electronics Booking System after authentication.',
-    tags: ["html", 'javascript', 'css'],
-    repolink: 'https://github.com/Pushpendra-1697/panicky-smash-9541',
-    livelink: 'https://glittering-liger-3137f9.netlify.app/',
-  },
-  {
-    id: 2,
     img: 'Myntra.png',
     title: 'E-commerce store for fashion and lifestyle system',
     discription:
@@ -36,14 +26,24 @@ let projects = [
     livelink: 'https://myntra-gilt.vercel.app/',
   },
   {
-    id: 3,
-    img: 'BeautyCare.png',
-    title: 'E-commerce Beauty products system',
+    id: 2,
+    img: 'Hotel_Booking.png',
+    title: 'Hotels Booking System',
     discription:
-      'This is E-commerce authentication and authorization full Stack Project (Frontend & Backend).',
-    tags: ['react-redux', 'chakra-ui', 'expressjs', 'mongodb', 'nodejs', 'css'],
-    repolink: 'https://github.com/Pushpendra-1697/BeautyCare-clone',
-    livelink: 'https://frontend-eight-tawny-20.vercel.app/',
+      'This is a Flights & Hotel Booking System  after authentication.',
+    tags: ['react', 'react-router', 'jsx', 'css'],
+    repolink: 'https://github.com/Pushpendra-1697/naughty-discussion-3257',
+    livelink: 'https://expedia-travel.vercel.app',
+  },
+  {
+    id: 3,
+    img: 'rentomojo.png',
+    title: 'Sales-Oriented Cloneing System',
+    discription:
+      'This is a Fitnesss & Electronics Booking System after authentication.',
+    tags: ["html", 'javascript', 'css'],
+    repolink: 'https://github.com/Pushpendra-1697/panicky-smash-9541',
+    livelink: 'https://glittering-liger-3137f9.netlify.app/',
   }
 ];
 
@@ -127,7 +127,7 @@ function Projects() {
                   </figure>
                   <h3 className='project-name'> {item.title}</h3>
                   <p className='discription'>{item.discription} </p>
-                  <div className='tag-box' style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", marginTop:"25px" }}>
+                  <div className='tag-box' style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", marginTop: "25px" }}>
                     {item.tags.map((tag) => {
                       return <button style={{ borderRadius: "10px", backgroundColor: "rgba(193, 32, 32, 0.5)", color: "white", padding: "4px" }} key={tag}> {tag.toUpperCase()}</button>;
                     })}
