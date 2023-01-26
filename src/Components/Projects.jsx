@@ -12,7 +12,7 @@ let projects = [
     discription:
       'This is E-commerce authentication and authorization full Stack Project (Frontend & Backend).',
     tags: ['react-redux', 'chakra-ui', 'expressjs', 'mongodb', 'nodejs', 'css'],
-    repolink: 'https://github.com/Pushpendra-1697/BeautyCare-clone',
+    repolink: 'https://github.com/abhiamber/resonant-dinosaurs-925',
     livelink: 'https://frontend-eight-tawny-20.vercel.app/',
   },
   {
