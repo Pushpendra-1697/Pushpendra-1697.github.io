@@ -23,7 +23,7 @@ let projects = [
       'This is E-commerce store for fashion and lifestyle System  after authentication.',
     tags: ['react', 'react-router', 'react-redux', 'css'],
     repolink: 'https://github.com/harshau9/Myntra-Clone',
-    livelink: 'https://myntra-gilt.vercel.app/',
+    livelink: 'https://myntra-black.vercel.app/',
   },
   {
     id: 2,
