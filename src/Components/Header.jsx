@@ -51,7 +51,7 @@ export default function Header() {
               </li>
 
               <li className='active'>
-                <a href='./assets/docs/PUSHPENDRA_SINGH_Resume.pdf' download>
+                <a href='./assets/docs/fw20_0921_Pushpendra_Singh_Resume.pdf' download>
                   Resume
                   <span></span>
                   <span></span>
