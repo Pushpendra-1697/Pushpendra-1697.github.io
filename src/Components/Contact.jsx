@@ -66,14 +66,14 @@ export default function Contact() {
             <h3 className='contact-h3'> Want To Know More !</h3>
             <div className='resume '>
               <div className='view-box sm-flex-45 '>
-                <a href='./assets/docs/fw20_0921-Pushpendra Singh-Resume.pdf' download>
+                <a href='./assets/docs/Pushpendra-Singh-Resume.pdf' download>
                   Download Resume{' '}
                 </a>
               </div>
               <div className='view-box  sm-flex-45 '>
                 <a
                   target='blank'
-                  href='https://drive.google.com/file/d/15nozP6x8wMlXFVOlbWc5_JgnrOGsnbdB/view?usp=sharing'
+                  href='https://drive.google.com/file/d/1xnEE2pfTY6XU0RMgHckov4oPuE7WhKcN/view?usp=sharing'
                 >
                   View Resume{' '}
                 </a>
