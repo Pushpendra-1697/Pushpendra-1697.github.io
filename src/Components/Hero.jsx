@@ -3,10 +3,10 @@ import React from 'react';
 export default function Hero() {
   return (
     <>
-      <section className='hero container flex'>
-        <article className='flex sm-column'  style={{alignItems:'center'}}>
+      <section id='home' className='hero container flex'>
+        <article className='flex sm-column' style={{ alignItems: 'center' }}>
           <div >
-            <h1 style={{textTransform: 'capitalize'}}>
+            <h1 style={{ textTransform: 'capitalize' }}>
               Hey There!<p>✋</p>
             </h1>
             <h1
@@ -58,8 +58,8 @@ export default function Hero() {
               </li>
             </ul>
           </div>
-          <figure style={{ paddingTop: '3rem'}}>
-            <img  src='./assets/docs/myProfile.jpg' alt='Pushpendra' />
+          <figure style={{ paddingTop: '3rem' }}>
+            <img className='home-img' src='./assets/docs/myProfile.jpg' alt='Pushpendra' />
           </figure>
         </article>
       </section>

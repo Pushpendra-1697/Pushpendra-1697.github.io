@@ -6,11 +6,12 @@ export default function Contact() {
       <section id='contact'>
         <h4 style={{ marginBottom: '4rem' }}> <u>Get In Touch</u> </h4>
         <div className='contact-box   sm-center   mn-flex-start '>
-          <div className='flex-20 sm-flex-50' style={{marginTop: "5px"}}>
+          <div className='flex-20 sm-flex-50' style={{ marginTop: "5px" }}>
             <h3 className='contact-h3 '>Let's Connect Here ! </h3>
 
-            <div className='contact-icon-div' style={{marginTop: "15px"}}>
+            <div className='contact-icon-div' style={{ marginTop: "15px" }}>
               <a
+                id='contact-linkedin'
                 href='https://www.linkedin.com/in/pushpendra-singh-48912a23a/'
                 target='blank'
               >
@@ -21,7 +22,7 @@ export default function Contact() {
                 {' '}
                 <i className='fa-brands fa-square-twitter'></i>
               </a>
-              <a href='https://github.com/Pushpendra-1697' target='blank'>
+              <a id='contact-github' href='https://github.com/Pushpendra-1697' target='blank'>
                 {' '}
                 <i className='fa-brands fa-square-github'></i>{' '}
               </a>
@@ -43,6 +44,7 @@ export default function Contact() {
             <div className='contact-mail sm-bet'>
               <div className='flex-65 view-box sm-flex-60'>
                 <a
+                  id='contact-email'
                   className='mail'
                   target='blank'
                   href='mailto:pushpendra1697@gmail.com  '
@@ -52,28 +54,29 @@ export default function Contact() {
               </div>
               <div className='flex-40 view-box sm-flex-35'>
                 {' '}
-                <a className='tel' target='blank' href='tel:9721085620'>
+                <a id='contact-phone' className='tel' target='blank' href='tel:9721085620'>
                   Call Me : +919721085620
                 </a>
               </div>
             </div>
           </div>
-  
 
 
-  
+
+
           <div className='flex-20 sm-flex-50 '>
             <h3 className='contact-h3'> Want To Know More !</h3>
             <div className='resume '>
               <div className='view-box sm-flex-45 '>
-                <a href='./assets/docs/Pushpendra-Singh-Resume.pdf' download>
+                <a id="resume-link-2" href='./assets/docs/Pushpendra-Singh-Resume.pdf' download>
                   Download Resume{' '}
                 </a>
               </div>
               <div className='view-box  sm-flex-45 '>
                 <a
+                  id="resume-link-2 resume-button-2"
                   target='blank'
-                  href='https://drive.google.com/file/d/1xnEE2pfTY6XU0RMgHckov4oPuE7WhKcN/view?usp=sharing'
+                  href='https://drive.google.com/file/d/1UrDWaaLQBs-XwFLbpUF-knmqXXtcu7ip/view?usp=sharing'
                 >
                   View Resume{' '}
                 </a>

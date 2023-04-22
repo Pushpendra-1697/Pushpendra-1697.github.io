@@ -44,6 +44,16 @@ let projects = [
     tags: ["html", 'javascript', 'css'],
     repolink: 'https://github.com/Pushpendra-1697/panicky-smash-9541',
     livelink: 'https://glittering-liger-3137f9.netlify.app/',
+  },
+  {
+    id: 4,
+    img: 'LoginEnhancer.png',
+    title: 'Enhancing-Login-Security',
+    discription:
+      'This project is related to validation of user from only backend side, During Authentication if user put 5 times wrong password then user will be blocked for limited time(24 hours).',
+    tags: ['Reactjs', 'expressjs', 'mongodb', 'nodejs', 'css'],
+    repolink: 'https://github.com/Pushpendra-1697/Enhancing-Login-Security',
+    livelink: 'https://cointabclient.vercel.app/',
   }
 ];
 
@@ -114,7 +124,7 @@ function Projects() {
           {frontProjects && frontProjects.map((item, index) => {
             return (
               <div
-                className='flex-30 project-item sm-flex-45 mn-sm-bet'
+                className='flex-30 project-item sm-flex-45 mn-sm-bet project-card'
                 key={index}
               >
                 <div>
@@ -125,21 +135,21 @@ function Projects() {
                       alt=''
                     />
                   </figure>
-                  <h3 className='project-name'> {item.title}</h3>
-                  <p className='discription'>{item.discription} </p>
-                  <div className='tag-box' style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", marginTop: "25px" }}>
+                  <h3 className='project-name project-title'> {item.title}</h3>
+                  <p className='discription project-description'>{item.discription} </p>
+                  <div className='tag-box project-tech-stack' style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", marginTop: "25px" }}>
                     {item.tags.map((tag) => {
                       return <button style={{ borderRadius: "10px", backgroundColor: "rgba(193, 32, 32, 0.5)", color: "white", padding: "4px" }} key={tag}> {tag.toUpperCase()}</button>;
                     })}
                   </div>
                   <div className='repolink-box'>
                     <abbr title='Go To Repository'>
-                      <a href={item.repolink} target='blank'>
+                      <a className='project-github-link' href={item.repolink} target='blank'>
                         <VscGithub />
                       </a>
                     </abbr>
                     <abbr title='Go To Live Demo'>
-                      <a href={item.livelink} target='blank'>
+                      <a className='project-deployed-link' href={item.livelink} target='blank'>
                         {item.tags.includes('css') ? <FaEye /> : ''}
                       </a>
                     </abbr>

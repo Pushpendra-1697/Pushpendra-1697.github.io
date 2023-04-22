@@ -3,19 +3,19 @@ import React from 'react';
 function About() {
   return (
     <>
-      <section className='about' id='about'>
+      <section className='about about section' id='about'>
         <article>
           <h2> <u>About Me</u> </h2>
           <p className='abuot-p'>
-            I am <a style={{color: '#c12020',fontWeight: 'bold', fontSize: '1.5rem'}} href='#contact'>Pushpendra Singh.</a>
-            <br/>
-             I am a MERN stack developer.
+            I am <a id="user-detail-name" style={{ color: '#c12020', fontWeight: 'bold', fontSize: '1.5rem' }} href='#contact'>Pushpendra Singh.</a>
+            <br />
+            I am a MERN stack developer.
           </p>
 
-          <p className='abuot-p'> I learnd Full Stack Web Development from <a style={{color: '#c12020', fontWeight: 'bold' ,fontSize: '1.5rem'}} href='https://www.masaischool.com/' target="blank">Masai School. </a>
-          <br/>
-          I am comfortable with both Frontend and Backend.
-           </p>
+          <p id="user-detail-intro" className='abuot-p'> I learnd Full Stack Web Development from <a style={{ color: '#c12020', fontWeight: 'bold', fontSize: '1.5rem' }} href='https://www.masaischool.com/' target="blank">Masai School. </a>
+            <br />
+            I am comfortable with both Frontend and Backend.
+          </p>
           <p className='abuot-p'>
             {' '}
             <strong> Backend : </strong> Learned Node.js, MongoDB, Express.js.
