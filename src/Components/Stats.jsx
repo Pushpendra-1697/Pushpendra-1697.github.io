@@ -17,7 +17,7 @@ export default function Stats() {
           <img
             id="github-top-langs"
             className='img1 mn-sm-bet'
-            src='https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=Pushpendra-1697&show_icons=true&locale=en&layout=compact'
+            src='https://github-readme-stats.vercel.app/api/top-langs?username=Pushpendra-1697&show_icons=true&locale=en&layout=compact'
             alt='Pushpendra-1697'
           />
         </div>
