@@ -64,7 +64,7 @@ function Projects() {
   } else if (window.outerWidth > 480 && window.outerWidth <= 768) {
     num = 2;
   } else {
-    num = 3;
+    num = 4;
   }
   const [count, setCount] = useState(0);
 
@@ -73,10 +73,8 @@ function Projects() {
     for (let i = count; i < count + num; i++) {
       arr.push(projects[i]);
     }
-    // console.log(arr);
     return arr;
   });
-  // console.log(frontProjects);
 
   function handleLeft() {
     setCount((prevState) => {
@@ -92,7 +90,6 @@ function Projects() {
       for (let i = count; i < count + num; i++) {
         arr.push(projects[i]);
       }
-      // console.log(arr);
       return arr;
     });
   }
@@ -111,14 +108,13 @@ function Projects() {
       for (let i = count; i < count + num; i++) {
         arr.push(projects[i]);
       }
-      // console.log(arr);
       return arr;
     });
   }
 
   return (
     <>
-      <section className='projects' id='projects'>
+      <section className='projects1' id='projects'>
         <h2> <u>Projects</u> </h2>
         <div className='project-box mn-sm-center '>
           {frontProjects && frontProjects.map((item, index) => {

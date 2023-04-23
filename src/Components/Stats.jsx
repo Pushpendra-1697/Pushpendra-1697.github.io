@@ -25,7 +25,7 @@ export default function Stats() {
           <img
             id="github-stats-card"
             className='img1 mn-sm-bet'
-            src="https://github-readme-stats-sigma-five.vercel.app/api?username=Pushpendra-1697&show_icons=true&locale=en" alt="Pushpendra-1697"
+            src="https://github-readme-stats.vercel.app/api?username=Pushpendra-1697&show_icons=true&locale=en" alt="Pushpendra-1697"
           />
         </div>
         <div className='git-icon'>

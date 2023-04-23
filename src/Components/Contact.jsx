@@ -62,19 +62,16 @@ export default function Contact() {
           </div>
 
 
-
-
-          <div className='flex-20 sm-flex-50 '>
+          <div className='flex-20 sm-flex-50'>
             <h3 className='contact-h3'> Want To Know More !</h3>
-            <div className='resume '>
-              <div className='view-box sm-flex-45 '>
+            <div className='resume'>
+              <div className='view-box sm-flex-45' id='resume-button-2'>
                 <a id="resume-link-2" href='./assets/docs/Pushpendra-Singh-Resume.pdf' download>
                   Download Resume{' '}
                 </a>
               </div>
               <div className='view-box  sm-flex-45 '>
                 <a
-                  id="resume-link-2 resume-button-2"
                   target='blank'
                   href='https://drive.google.com/file/d/1UrDWaaLQBs-XwFLbpUF-knmqXXtcu7ip/view?usp=sharing'
                 >
