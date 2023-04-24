@@ -56,6 +56,17 @@ export default function Hero() {
                   <i className='fa-sharp fa-solid fa-phone'> </i>
                 </a>
               </li>
+
+              <li className='nav-link resume active' id="resume-button-2">
+                <a id="resume-link-2" href='./assets/docs/Pushpendra-Singh-Resume.pdf' download>
+                  Resume
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </a>
+              </li>
+
             </ul>
           </div>
           <figure style={{ paddingTop: '3rem' }}>
