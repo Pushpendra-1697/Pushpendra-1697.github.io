@@ -12,7 +12,7 @@ function About() {
             I am a MERN stack developer.
           </p>
 
-          <p id="user-detail-intro" className='abuot-p'> I learnd Full Stack Web Development from <a style={{ color: '#c12020', fontWeight: 'bold', fontSize: '1.5rem' }} href='https://www.masaischool.com/' target="blank">Masai School. </a>
+          <p id="user-detail-intro" className='abuot-p'> I learned Full Stack Web Development from <a style={{ color: '#c12020', fontWeight: 'bold', fontSize: '1.5rem' }} href='https://www.masaischool.com/' target="blank">Masai School. </a>
             <br />
             I am comfortable with both Frontend and Backend.
           </p>
