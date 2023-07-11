@@ -73,7 +73,7 @@ export default function Contact() {
               <div className='view-box  sm-flex-45 '>
                 <a
                   target='blank'
-                  href='https://drive.google.com/file/d/1UrDWaaLQBs-XwFLbpUF-knmqXXtcu7ip/view?usp=sharing'
+                  href='https://drive.google.com/file/d/1P3oktYct1Wln6RgcLXDtb0977BwbrvqP/view?usp=sharing'
                 >
                   View Resume{' '}
                 </a>
