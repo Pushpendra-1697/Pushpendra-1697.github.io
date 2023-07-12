@@ -50,7 +50,7 @@ let projects = [
     img: 'LoginEnhancer.png',
     title: 'Enhancing-Login-Security',
     discription:
-      'This project is related to validation of user from only backend side, During Authentication if user put 5 times wrong password then user will be blocked for limited time(24 hours).',
+      'This project is related to validation, if user put 5 times wrong password then user will be blocked for 24 hours.',
     tags: ['Reactjs', 'expressjs', 'mongodb', 'nodejs', 'css'],
     repolink: 'https://github.com/Pushpendra-1697/Enhancing-Login-Security',
     livelink: 'https://cointabclient.vercel.app/',
@@ -128,14 +128,14 @@ function Projects() {
                     <img
                       className='full-width'
                       src={`./assets/projects/${item.img}`}
-                      alt=''
+                      alt='project logo'
                     />
                   </figure>
                   <h3 className='project-name project-title'> {item.title}</h3>
                   <p className='discription project-description'>{item.discription} </p>
-                  <div className='tag-box project-tech-stack' style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", marginTop: "25px" }}>
+                  <div className='tag-box project-tech-stack' style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", marginTop: "25px", gap: '10px' }}>
                     {item.tags.map((tag) => {
-                      return <button style={{ borderRadius: "10px", backgroundColor: "rgba(193, 32, 32, 0.5)", color: "white", padding: "4px" }} key={tag}> {tag.toUpperCase()}</button>;
+                      return <button style={{ borderRadius: "10px", backgroundColor: "rgba(193, 32, 32, 0.5)", border: 'none', color: "white", padding: "6px" }} key={tag}> {tag.toUpperCase()}</button>;
                     })}
                   </div>
                   <div className='repolink-box'>
