@@ -16,6 +16,10 @@
   position: relative;
 }
 
+:root {
+  scroll-behavior: smooth;
+}
+
 .icon-div {
   border: 2px solid#c12020;
   border-radius: 50%;

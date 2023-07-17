@@ -26,7 +26,7 @@ function App() {
       <Footer />
 
       <div className='icon-div'>
-        <a href='#top' className='top-button'>
+        <a href='#' className='top-button'>
           <abbr title='Go To Top'>
             {' '}
             <BiCaretUp style={{ color: '#c12020', fontSize: '2.4rem' }} />
