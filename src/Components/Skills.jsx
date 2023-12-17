@@ -2,7 +2,7 @@ import React from 'react';
 
 import { AiFillHtml5 } from 'react-icons/ai';
 import { IoLogoCss3 } from 'react-icons/io';
-import { SiSass } from 'react-icons/si';
+import { SiNextdotjs } from 'react-icons/si';
 import { SiJavascript } from 'react-icons/si';
 import { SiReact } from 'react-icons/si';
 import { SiRedux } from 'react-icons/si';
@@ -29,8 +29,8 @@ function Skills() {
           </figure>
 
           <figure className='figure1 skills-card'>
-            <SiSass className='tool skills-card-img' />
-            <figcaption className='skills-card-name'>SCSS</figcaption>
+            <SiNextdotjs className='tool skills-card-img' />
+            <figcaption className='skills-card-name'>Next.js</figcaption>
           </figure>
 
           <figure className='figure1 skills-card'>

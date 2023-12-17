@@ -70,7 +70,7 @@ export default function Hero() {
             </ul>
           </div>
           <figure style={{ paddingTop: '3rem' }}>
-            <img className='home-img' src='./assets/docs/myProfile.jpg' alt='Pushpendra' />
+            <img className='home-img' src='./assets/docs/myProfile.jpg' alt='Pushpendra-Singh' />
           </figure>
         </article>
       </section>
