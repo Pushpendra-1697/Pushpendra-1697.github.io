@@ -140,12 +140,12 @@ function Projects() {
                   </div>
                   <div className='repolink-box'>
                     <abbr title='Go To Repository'>
-                      <a className='project-github-link' href={item.repolink} target='blank'>
+                      <a className='project-github-link' href={item.repolink} target='_blank'>
                         <VscGithub />
                       </a>
                     </abbr>
                     <abbr title='Go To Live Demo'>
-                      <a className='project-deployed-link' href={item.livelink} target='blank'>
+                      <a className='project-deployed-link' href={item.livelink} target='_blank'>
                         {item.tags.includes('css') ? <FaEye /> : ''}
                       </a>
                     </abbr>
